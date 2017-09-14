@@ -6,7 +6,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SimpleRestApiCall/Networking.swift"
@@ -19,14 +19,14 @@
             landmarkType = "3">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "SimpleRestApiCall.Networking.__deallocating_deinit"
                   moduleName = "SimpleRestApiCall"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Ganesh/Documents/IOS%20Apps/SimpleRestApiCall/SimpleRestApiCall/Networking.swift"
-                  timestampString = "527080738.219768"
+                  timestampString = "527085154.444518"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -34,14 +34,14 @@
                   offsetFromSymbolStart = "4">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "SimpleRestApiCall.Networking.deinit"
                   moduleName = "SimpleRestApiCall"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Ganesh/Documents/IOS%20Apps/SimpleRestApiCall/SimpleRestApiCall/Networking.swift"
-                  timestampString = "527080738.223778"
+                  timestampString = "527085154.450576"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -49,14 +49,14 @@
                   offsetFromSymbolStart = "4">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "SimpleRestApiCall.Networking.init () -&gt; SimpleRestApiCall.Networking"
                   moduleName = "SimpleRestApiCall"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Ganesh/Documents/IOS%20Apps/SimpleRestApiCall/SimpleRestApiCall/Networking.swift"
-                  timestampString = "527080738.228071"
+                  timestampString = "527085154.457202"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "12"
@@ -64,14 +64,14 @@
                   offsetFromSymbolStart = "4">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "SimpleRestApiCall.Networking.__allocating_init () -&gt; SimpleRestApiCall.Networking"
                   moduleName = "SimpleRestApiCall"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Ganesh/Documents/IOS%20Apps/SimpleRestApiCall/SimpleRestApiCall/Networking.swift"
-                  timestampString = "527080738.232668"
+                  timestampString = "527085154.462387"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -88,11 +88,59 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SimpleRestApiCall/Networking.swift"
-            timestampString = "527079756.718572"
+            timestampString = "527085663.329682"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "getEventsNearby()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SimpleRestApiCall/Networking.swift"
+            timestampString = "527085663.329682"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "getEventsNearby()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SimpleRestApiCall/Networking.swift"
+            timestampString = "527085663.329682"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "getEventsNearby()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SimpleRestApiCall/Networking.swift"
+            timestampString = "527085699.810943"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "getEventsNearby()"
             landmarkType = "7">
          </BreakpointContent>

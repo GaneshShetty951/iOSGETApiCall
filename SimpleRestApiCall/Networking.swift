@@ -19,12 +19,30 @@ class Networking{
             
             let product = response.result.value
             if ( product?.status != nil) {
-                print( product?.status! as Any )
+                print( product?.status as Any)
             }
-            if( product?.selected_product != nil) {
-                print( product?.selected_product! as Any)
+            if ( product?.selected_product != nil) {
+                print( product?.selected_product as Any)
             }
-            print(product?.item?.name)
+            if ( product?.item?.name != nil ) {
+                print( product?.item?.name as Any )
+            }
+            if( product?.office_hours != nil ) {
+                print(product?.office_hours! as Any)
+            }
+            if ( product?.item?.price != nil ) {
+                print( (product?.item?.price! as NSString?)?.floatValue as Any )
+            }
+            if( product?.item?.url_key != nil ) {
+                print ( product?.item?.url_key! as Any )
+            }
+            if let images = product?.item?.images
+            {
+                for image in images {
+                    print( image.file! )
+                    print( image.label! )
+                }
+            }
         }
     }
 }
