@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1F40664F1F69417800F47FD5"
+               BuildableName = "SimpleRestApiCall.app"
+               BlueprintName = "SimpleRestApiCall"
+               ReferencedContainer = "container:SimpleRestApiCall.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1F4066631F69417900F47FD5"
+               BuildableName = "SimpleRestApiCallTests.xctest"
+               BlueprintName = "SimpleRestApiCallTests"
+               ReferencedContainer = "container:SimpleRestApiCall.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1F40666E1F69417900F47FD5"
+               BuildableName = "SimpleRestApiCallUITests.xctest"
+               BlueprintName = "SimpleRestApiCallUITests"
+               ReferencedContainer = "container:SimpleRestApiCall.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1F40664F1F69417800F47FD5"
+            BuildableName = "SimpleRestApiCall.app"
+            BlueprintName = "SimpleRestApiCall"
+            ReferencedContainer = "container:SimpleRestApiCall.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1F40664F1F69417800F47FD5"
+            BuildableName = "SimpleRestApiCall.app"
+            BlueprintName = "SimpleRestApiCall"
+            ReferencedContainer = "container:SimpleRestApiCall.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1F40664F1F69417800F47FD5"
+            BuildableName = "SimpleRestApiCall.app"
+            BlueprintName = "SimpleRestApiCall"
+            ReferencedContainer = "container:SimpleRestApiCall.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
